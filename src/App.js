@@ -1,15 +1,20 @@
-import './App.css';
+import React from 'react';
+import { Route, Routes } from "react-router-dom";
+import Home from "./Pages/home";
+import Patient from "./Pages/patient";
+import Treatment from "./Pages/treatment";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Test writing - Jeewon
-        </p>
-      </header>
-    </div>
-  );
+    <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/patient" element={<Patient />} />
+        <Route path="/treatment" element={<Treatment />} />
+      </Routes>
+    </>
+  )
 }
 
 export default App;
