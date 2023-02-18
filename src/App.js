@@ -1,8 +1,8 @@
 import React from 'react';
 import { Route, Routes } from "react-router-dom";
-import Home from "./Pages/home";
-import Patient from "./Pages/patient";
-import Treatment from "./Pages/treatment";
+import Home from "./Pages/home/home";
+import Patient from "./Pages/patient/patient";
+import Treatment from "./Pages/treatment/treatment";
 
 function App() {
   return (
