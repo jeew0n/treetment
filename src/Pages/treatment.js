@@ -16,12 +16,15 @@ function Treatment (){
     return (
       <div>
         <h1>Treatment</h1>
-        <Link to='/patient'>
-            <button>New patient</button>
-        </Link>
-        <Link to='/home'>
-            <button>Go to home</button>
-        </Link>
+        <div className="button-group">
+          <Link to='/patient'>
+              <button>New patient</button>
+          </Link>
+          <Link to='/home'>
+              <button>Go to Home</button>
+          </Link>
+        </div>
+        
         <div className="main">
           <h1>React Search</h1>
           <div className="search">
