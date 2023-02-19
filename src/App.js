@@ -1,8 +1,7 @@
 import React from 'react';
 import { Route, Routes } from "react-router-dom";
 import Home from "./Pages/home/home";
-import Patient from "./Pages/patient/patient";
-import Treatment from "./Pages/treatment";
+import Treatment from "./Pages/treatment/treatment";
 
 function App() {
   return (
@@ -10,7 +9,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
-        <Route path="/patient" element={<Patient />} />
         <Route path="/treatment" element={<Treatment />} />
       </Routes>
     </>

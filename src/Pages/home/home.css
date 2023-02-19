@@ -1,0 +1,107 @@
+.primary {
+   color: rgb(255, 255, 255);
+ }
+ 
+ h1 {
+    text-align: center;
+    border: 12px solid;
+    border-color: #A2C7E5;
+    background-color: #A2C7E5;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.0rem;
+ }
+ 
+ #patient-button {
+    background-color: #C1BDDB;
+    color: white;
+    font-size: 24px;
+    padding: 40px 140px;
+    border-radius: 10px;
+    position: absolute;
+    top: 150px;
+    right: 250px;
+    font-family:'Poppins', sans-serif;
+ }
+ 
+ #customize {
+    background-color: #C1BDDB;
+    color: white;
+    font-size: 24px;
+    padding: 40px 125px;
+    border-radius: 10px;
+    position: absolute;
+    top: 290px;
+    right: 250px;
+    font-family:'Poppins', sans-serif;
+ }
+ 
+ 
+ #settings {
+    background-color: #C1BDDB;
+    color: white;
+    font-size: 24px;
+    padding: 40px 178px;
+    border-radius: 10px;
+    position: absolute;
+    top: 430px;
+    right: 250px;
+    font-family:'Poppins', sans-serif;
+ }
+ 
+ 
+ #square {
+    background-color: #A2C7E5;
+    position: absolute;
+    top: 600px;
+    right: 250px;
+    width: 450px;
+    height: 300px;
+    border-radius: 10px;
+ }
+ 
+ 
+.doctor {
+   width: 400px;
+   height: auto;
+   margin: 20px;
+   position: absolute;
+   top: 110px;
+   left: 120px;
+ }
+
+ 
+ #p1{
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 180px;
+    left: 400px;
+    font-size: medium;
+ }
+ 
+ 
+ #p2{
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 660px;
+    right: 610px;
+    font-size: large;
+ }
+ 
+ 
+ #p3{
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 680px;
+    right: 540px;
+    font-size: large;
+ }
+ 
+ 
+ h2{
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    position: absolute;
+    top: 620px;
+    right: 600px;
+ }
+ 
