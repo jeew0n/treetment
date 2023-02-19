@@ -23,7 +23,15 @@ html {
 .list {
   position: absolute;
   top: 290px;
-  right: 630px;
+  right: 450px;
+  width: 500px;
+  font-size: 25px;
+}
+
+.symptoms {
+  position: absolute;
+  top: 290px;
+  right: 800px;
   width: 500px;
   font-size: 25px;
 }
