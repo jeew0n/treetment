@@ -13,9 +13,11 @@ function Treatment (){
       var lowerCase = e.target.value.toLowerCase();
       setInputText(lowerCase);
     };
+    
     return (
       <div>
         <h1>Treatment</h1>
+
         <div className="button-group">
           <Link to='/patient'>
               <button>New patient</button>
@@ -24,7 +26,7 @@ function Treatment (){
               <button>Go to Home</button>
           </Link>
         </div>
-        
+
         <div className="main">
           <h1>React Search</h1>
           <div className="search">

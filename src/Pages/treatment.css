@@ -87,8 +87,8 @@ textarea {
 }
 
 .button-group button {
-margin: 0 10px;
 text-align: center;
+margin: 0 10px;
 text-decoration: none;
 white-space: nowrap;
 cursor: pointer;
